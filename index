@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEO Proxy | Boost Your Site Visibility</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      max-width: 600px;
+      margin: auto;
+      opacity: 0.9;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      transition: transform 0.2s;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    h2 {
+      color: #111827;
+      margin-bottom: 1rem;
+    }
+
+    .footer {
+      background: #111827;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 6px;
+      text-decoration: none;
+      margin-top: 1rem;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #1d4ed8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SEO Proxy</h1>
+    <p>Improve your website SEO automatically with a smart Cloudflare Worker that rewrites your HTML on the fly.</p>
+  </header>
+
+  <section>
+    <div class="card">
+      <h2>What Is an SEO Proxy?</h2>
+      <p>An SEO Proxy is a Cloudflare Worker that sits between visitors and your website. When someone visits your domain, the proxy catches the request, fetches your original HTML, cleans it up, improves tags, and serves a better SEO version to search engines.</p>
+    </div>
+
+    <div class="card">
+      <h2>How It Works</h2>
+      <p>Imagine your website like a shop with messy shelves. The SEO Proxy acts like a cleaner who quickly arranges everything before customers (or search bots) walk in. It rewrites meta tags, titles, and headers, adds missing alt texts to images, and optimizes structure without touching your real code.</p>
+    </div>
+
+    <div class="card">
+      <h2>Why Use It?</h2>
+      <ul style="margin-left: 1.2rem;">
+        <li>Instant SEO improvement without changing your code</li>
+        <li>Fast page loads with Cloudflare edge caching</li>
+        <li>Automatic structure correction for bots</li>
+        <li>Perfect for non-technical site owners</li>
+      </ul>
+      <a href="#" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <div class="footer">
+    © 2025 SEO Proxy | Built for better web visibility
+  </div>
+</body>
+</html>
